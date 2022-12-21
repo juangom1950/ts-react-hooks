@@ -16,6 +16,8 @@ export const Counter = () => {
             <span>Valor: { counter } </span>
             <br/>
             <button
+                // We should send a reference to the function like this
+                // otherwise it is going to send and event instead of a number parameter
                 onClick={ () => incrementar() } 
                 className="btn btn-outline-primary mt-2">
                 +1

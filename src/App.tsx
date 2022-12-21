@@ -5,6 +5,8 @@ import { Usuario } from './components/Usuario';
 
 import { TimerPadre } from './components/TimerPadre';
 import { ContadorRed } from './components/ContadorRed';
+import { Formulario } from './components/Formulario';
+import { Formulario2 } from './components/Formulario2';
 
 
 function App() {
@@ -26,6 +28,15 @@ function App() {
       <h2>useReducer</h2>
       <hr/>
       <ContadorRed />
+      <hr/>
+
+      <h2>Formulario</h2>
+      <hr/>
+      <Formulario />
+
+      <h2>Formulario2</h2>
+      <hr/>
+      <Formulario2 />
 
 
 
